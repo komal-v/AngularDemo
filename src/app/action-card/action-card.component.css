@@ -1,0 +1,52 @@
+.container{
+    margin-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.part-one{
+    background-color: #084298; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.part-two{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bolder;
+    padding: 20px;
+}
+.part-three{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    font-size: 18px;
+}
+.fa-2x{
+    color: white;
+}
+.card-body{
+    padding: 10px;
+}
+.btn-color{
+    background-color: rgb(119, 4, 4);
+    color: white;
+    width: 100%;
+    font-size: 1vw;
+}
+.card{
+    box-shadow: 0px 2px 5px grey;
+}
+@media only screen and (max-width: 1200px) {
+    .col-md-2{
+        display: none;
+    } 
+    .col-md-6{
+        width: 80%;
+    }
+    .col-md-4{
+        width: 20%;
+    }
+}

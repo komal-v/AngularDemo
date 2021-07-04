@@ -1,0 +1,70 @@
+<div class="sidebar" [ngClass]="{'primary':isPrimary , 'primary-copy':!isPrimary}">
+    <div class="nav-content hover">
+        <i class="fa fa-shopping-cart fa-3px"></i>
+        <span *ngIf="show">E-commerce</span>
+    </div>
+    <div class="nav-content hover">
+        <i class="fa fa-home fa-3px"></i>
+        <span *ngIf="show">IoT Dashboard</span>
+    </div>
+    <div class="nav-content hover">
+        <i class="fa fa-cog fa-3px"></i>
+        <span *ngIf="show">Backend Integration</span>
+    </div>
+    <div class="nav-content">
+        <span *ngIf="show" class="title-tag">FEATURES</span>
+    </div>
+    <div class="nav-content hover">
+        <i class="fa fa-columns fa-3px"></i>
+        <span *ngIf="show">Layout</span>
+    </div>
+    <div class="nav-content hover">
+        <i class="fa fa-pencil fa-3px"></i>
+        <span *ngIf="show">Forms</span>
+    </div>
+    <div class="nav-content hover">
+        <i class="fa fa-th fa-3px"></i>
+        <span *ngIf="show">UI Features</span>
+    </div>
+    <div class="nav-content hover">
+        <i class="fa fa-window-maximize fa-3px"></i>
+        <span *ngIf="show">Modal & Overlays</span>
+    </div>
+    <div class="nav-content hover">
+        <i class="fa fa-commenting-o fa-3px"></i>
+        <span *ngIf="show">Extra Components</span>
+    </div>
+    <div class="nav-content hover">
+        <i class="fa fa-map-o fa-3px"></i>
+        <span *ngIf="show">Maps</span>
+    </div>
+    <div class="nav-content hover">
+        <i class="fa fa-pie-chart fa-3px"></i>
+        <span *ngIf="show">Charts</span>
+    </div>
+    <div class="nav-content hover">
+        <i class="fa fa-file-text-o fa-3px"></i>
+        <span *ngIf="show">Editors</span>
+    </div>
+    <div class="nav-content hover">
+        <i class="fa fa-table fa-3px"></i>
+        <span *ngIf="show">Tables & Data</span>
+    </div>
+    <div class="nav-content hover">
+        <i class="fa fa-random fa-3px"></i>
+        <span *ngIf="show">Miscellaneous</span>
+    </div>
+    <div class="nav-content hover">
+        <i class="fa fa-lock fa-3px"></i>
+        <span *ngIf="show">Auth</span>
+    </div>
+    <div>
+    </div>
+
+</div>
+
+<div id="main" [ngClass]="{'secondary':isSecondary, 'secondary-copy':!isSecondary}">
+    <div class="dashboard-body">
+    <app-table-view></app-table-view>
+    </div>
+</div>

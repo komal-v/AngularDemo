@@ -1,0 +1,47 @@
+.navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+.navbar-nav{
+    padding: 10px;
+    /* z-index: 1; */
+}
+.bg-blue{
+    background-color: #084298 !important;
+}
+.fa-white{
+    color: white;
+}
+.bar-padding{
+    padding-left : 15px;
+    /* padding-right : 15px; */
+    margin-top: 1%;
+}
+.nav-item:hover{
+    cursor: pointer;
+}
+.nav-item{
+    padding-left: 15px;
+}
+.title{
+    font-size: 18pt;
+    color: white;
+}
+.navbar-right{
+    right: 15px;
+    position: absolute;
+}
+span{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.left-border{
+    border-left: 1px white solid;
+}
+.icons{
+    padding-right: 15px;
+}
+.fa-2x{
+    font-size: 1.2em !important;
+}
